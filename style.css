@@ -38,3 +38,17 @@ body{
   border-radius: 2px;
   margin-bottom: 20px;
 }
+
+/* ANIMATION */
+.cover, .square, .line{
+  background-image: linear-gradient(120deg, #ececec 50%, #fafafa 60%, #fafafa 61%, #ececec 70%);
+  background-size: 200%;
+  background-position: 100% 0;
+  animation: waves 2s linear infinite;
+}
+
+@keyframes waves {
+  100%{
+    background-position: -100% 0; /* GOES THROUGH THE WHOLE ELEMENT */
+  }
+}
