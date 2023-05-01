@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #2b010f;
+}
+
+/* SECTIONS */
+.card{
+  width: 90%;
+  max-width: 400px;
+  margin: 150px auto;
+  background: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.cover{
+  height: 200px;
+  background: #ececec;
+}
+.info{
+  padding: 30px;
+}
+
+/* CONTENT */
+.square{
+  width: 80px;
+  height: 80px;
+  border-radius: 2px;
+  margin-bottom: 20px;
+  background: #ececec;
+}
+.line{
+  height: 30px;
+  background: #ececec;
+  border-radius: 2px;
+  margin-bottom: 20px;
+}
